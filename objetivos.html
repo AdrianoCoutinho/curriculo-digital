@@ -1,42 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Objetivos</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
-    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
-    <title>Currículo - Adriano Coutinho</title>
 </head>
 <body>
     <main>
-        <div id="menu">
-            <div class="content">
-                <img src="images/perfil.jpg" alt="Adriano Coutinho">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">SOBRE</a></li>
-                        <li><a href="conhecimentos.html">CONHECIMENTOS</a></li>
-                        <li><a class="active" href="objetivos.html">OBJETIVOS</a></li>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-3 bg-blue d-flex align-items-center">
+                    <div class="card-body text-center">
+                        <img src="https://adrianocoutinho.github.io/curriculo-digital/images/perfil.jpg" alt="Adriano Coutinho" class="rounded-circle img-fluid">
+                        <nav class="nav flex-column menu fs-5">
+                            <a class="nav-link text-white" aria-current="page" href="index.html">Sobre</a>
+                            <a class="nav-link text-white" href="conhecimentos.html">Conhecimentos</a>
+                            <a class="nav-link active text-white" href="objetivos.html">Objetivos</a>
+                        </nav>                                                    
+                    </div>
+                </div>
+                <div class="col-12 col-md-9 d-flex flex-column align-items-start justify-content-center px-4 info">
+                    <h1>OBJETIVOS</h1>
+                    <ul id="obj">
+                        <li>Me tornar um programador experiente em diversas linguagens.</li>
+                        <li>Chegar ao nível sênior</li>
+                        <li>Poder contribuir com a comunidade Brasileira de programadores.</li>
+                        <li>Criar inovações no ramo.</li>
+                        <li>Atingir a carreira internacional.</li>
                     </ul>
-                </nav>
-            </div>
-        </div>
-        <div id="info">
-            <div class="cinfo">
-                <h1>OBJETIVOS</h1>
-                <ul id="obj">
-                    <li>Me tornar um programador experiente em diversas linguagens.</li>
-                    <li>Chegar ao nível sênior</li>
-                    <li>Poder contribuir com a comunidade Brasileira de programadores.</li>
-                    <li>Criar inovações no ramo.</li>
-                    <li>Atingir a carreira internacional.</li>
-                  </ul>
+                </div>
             </div>
         </div>
     </main>
+    <script src="/scritps/bootstrap.min.js"></script>
 </body>
 </html>
